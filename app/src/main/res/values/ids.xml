@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="name_field" />
+    <item type="id" name="trueRadioButtonOne" />
+    <item type="id" name="falseRadioButtonOne" />
+    <item type="id" name="trueRadioButtonTwo" />
+    <item type="id" name="falseRadioButtonTwo" />
+    <item type="id" name="trueRadioButtonThree" />
+    <item type="id" name="falseRadioButtonThree" />
+    <item type="id" name="trueRadioButtonFour" />
+    <item type="id" name="falseRadioButtonFour" />
+    <item type="id" name="trueRadioButtonFive" />
+    <item type="id" name="falseRadioButtonFive" />
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="Name">Name</string>
+    <string name="header">Test your biology knowledge!</string>
+    <string name="app_name">Biology Quiz App</string>
+    <string name="quizOne">1. Crocodile is the closest living relative to Tyranosaurus Rex.</string>
+    <string name="quizTwo">2. Hummingbirds can have heart rate of 1260 beats per minutes.</string>
+    <string name="quizThree">3. Elephants have the lowest heart rate among mammals.</string>
+    <string name="quizFour">4. Coyote and badger are good buddies in terms of hunting.</string>
+    <string name="quizFive">5. The longest protein is Titin. It starts with Methionylthreonylthreonylglutaminylalanylprolylthreonylphenylalanylthreonyl- and ends with
+-serylalanylthreonylvalylasparaginylisoleucylhistidylisoleucylarginylserylisoleucine. On the other hand, the longest word in English it takes 3 and half hours to pronounce it.</string>
+    <string name="True">True</string>
+    <string name="False">False</string>
+    <string name="Submit">Submit</string>
+</resources>
