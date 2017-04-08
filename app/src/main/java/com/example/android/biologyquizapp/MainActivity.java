@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
-        return (point = 0);
+        return (overallPoints);
     }
 
     // this method specifies the different results in String in terms of different overall points
