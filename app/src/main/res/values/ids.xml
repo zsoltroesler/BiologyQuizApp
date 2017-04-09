@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="id" name="name_field" />
-    <item type="id" name="trueRadioButtonOne" />
-    <item type="id" name="falseRadioButtonOne" />
-    <item type="id" name="trueRadioButtonTwo" />
-    <item type="id" name="falseRadioButtonTwo" />
-    <item type="id" name="trueRadioButtonThree" />
-    <item type="id" name="falseRadioButtonThree" />
-    <item type="id" name="trueRadioButtonFour" />
-    <item type="id" name="falseRadioButtonFour" />
-    <item type="id" name="trueRadioButtonFive" />
-    <item type="id" name="falseRadioButtonFive" />
+    <item type="id" name="name_field"/>
+    <item type="id" name="trueRadioButtonOne"/>
+    <item type="id" name="falseRadioButtonOne"/>
+    <item type="id" name="trueRadioButtonTwo"/>
+    <item type="id" name="falseRadioButtonTwo"/>
+    <item type="id" name="trueRadioButtonThree"/>
+    <item type="id" name="falseRadioButtonThree"/>
+    <item type="id" name="trueRadioButtonFour"/>
+    <item type="id" name="falseRadioButtonFour"/>
+    <item type="id" name="trueRadioButtonFive"/>
+    <item type="id" name="falseRadioButtonFive"/>
+    <item type="id" name="radioGroup1"/>
+    <item type="id" name="radioGroup2"/>
+    <item type="id" name="radioGroup3"/>
+    <item type="id" name="radioGroup4"/>
+    <item type="id" name="radioGroup5"/>
 </resources>

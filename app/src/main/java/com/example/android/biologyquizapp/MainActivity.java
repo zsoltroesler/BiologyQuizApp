@@ -6,7 +6,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import static com.example.android.biologyquizapp.R.id.radioGroup1;
+import static com.example.android.biologyquizapp.R.id.radioGroup2;
+import static com.example.android.biologyquizapp.R.id.radioGroup3;
+import static com.example.android.biologyquizapp.R.id.radioGroup4;
+import static com.example.android.biologyquizapp.R.id.radioGroup5;
 
 public class MainActivity extends AppCompatActivity {
     //  int point global variable declaration and initialization
@@ -27,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.falseRadioButtonOne:
                 if (checked)
                     point = point + 1;
-                    break;
+                break;
             case R.id.trueRadioButtonTwo:
                 if (checked)
                     point = point + 1;
-                    break;
+                break;
             case R.id.falseRadioButtonThree:
                 if (checked)
                     point = point + 1;
@@ -61,8 +68,23 @@ public class MainActivity extends AppCompatActivity {
 
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
-        return (point = 0);
+        return (overallPoints);
     }
+
+    public void reset(View view) {
+        RadioGroup radioGroupOne = (RadioGroup)findViewById(radioGroup1);
+        radioGroupOne.clearCheck();
+        RadioGroup radioGroupTwo = (RadioGroup)findViewById(radioGroup2);
+        radioGroupTwo.clearCheck();
+        RadioGroup radioGroupThree = (RadioGroup)findViewById(radioGroup3);
+        radioGroupThree.clearCheck();
+        RadioGroup radioGroupFour = (RadioGroup)findViewById(radioGroup4);
+        radioGroupFour.clearCheck();
+        RadioGroup radioGroupFive = (RadioGroup)findViewById(radioGroup5);
+        radioGroupFive.clearCheck();
+    }
+
+
 
     // this method specifies the different results in String in terms of different overall points
     private String createQuizSummary(String name, int overallPoints) {

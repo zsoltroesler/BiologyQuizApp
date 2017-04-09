@@ -38,6 +38,7 @@
             android:textAppearance="?android:textAppearanceMedium"/>
 
         <RadioGroup
+            android:id="@id/radioGroup1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -68,6 +69,7 @@
             android:textAppearance="?android:textAppearanceMedium"/>
 
         <RadioGroup
+            android:id="@id/radioGroup2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -98,6 +100,7 @@
             android:textAppearance="?android:textAppearanceMedium"/>
 
         <RadioGroup
+            android:id="@id/radioGroup3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -128,6 +131,7 @@
             android:textAppearance="?android:textAppearanceMedium"/>
 
         <RadioGroup
+            android:id="@id/radioGroup4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -158,6 +162,7 @@
             android:textAppearance="?android:textAppearanceMedium"/>
 
         <RadioGroup
+            android:id="@id/radioGroup5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -179,6 +184,7 @@
                 android:onClick="onRadioButtonClicked"/>
         </RadioGroup>
 
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -188,6 +194,16 @@
             android:textAllCaps="true"
             android:layout_gravity="center"
             android:onClick="submit"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_bottom_margin"
+            android:layout_marginTop="@dimen/activity_top_margin"
+            android:text="reset"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:onClick="reset"/>
 
     </LinearLayout>
+
 </ScrollView>
