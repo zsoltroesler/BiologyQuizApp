@@ -1,14 +1,19 @@
 <resources>
-    <string name="Name">Name</string>
+    <string name="name">Name</string>
     <string name="header">Test your biology knowledge!</string>
     <string name="app_name">Biology Quiz App</string>
-    <string name="quizOne">1. Crocodile is the closest living relative to Tyranosaurus Rex.</string>
+    <string name="quizOne">1. Crocodile is the closest living relative to Tyrannosaurus Rex.</string>
     <string name="quizTwo">2. Hummingbirds can have heart rate of 1260 beats per minutes.</string>
     <string name="quizThree">3. Elephants have the lowest heart rate among mammals.</string>
-    <string name="quizFour">4. Coyote and badger are good buddies in terms of hunting.</string>
-    <string name="quizFive">5. The longest protein is Titin. It starts with Methionylthreonylthreonylglutaminylalanylprolylthreonylphenylalanylthreonyl- and ends with
--serylalanylthreonylvalylasparaginylisoleucylhistidylisoleucylarginylserylisoleucine. On the other hand, the longest word in English it takes 3 and half hours to pronounce it.</string>
-    <string name="True">True</string>
-    <string name="False">False</string>
-    <string name="Submit">Submit</string>
+    <string name="quizFour">4. Select all the correct answers, which of the following is true for the human brain.</string>
+    <string name="quiz_four_A">A. The brain can not feel pain itself.</string>
+    <string name="quiz_four_B">B. The brain is much more active at night than during the day.</string>
+    <string name="quiz_four_C">C. While awake, the brain generates 10–23 watts of power, which is enough energy to power a light bulb.</string>
+    <string name="quiz_four_D">D. The brain is the most selfish organ. It weighs only 2 percents of body weight but it consumes 20 percents of the total oxygen and 25 percents of the total energy of the body.</string>
+    <string name="quizFive">5. What is the largest known protein? Hint: its chemical name is the longest word in English and it would take three and half hours to pronounce it correctly.</string>
+    <string name="radioButtonTrue">True</string>
+    <string name="radioButtonFalse">False</string>
+    <string name="answer">Answer</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
 </resources>

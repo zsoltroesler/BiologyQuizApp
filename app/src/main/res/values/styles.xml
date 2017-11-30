@@ -7,5 +7,62 @@
         <item name="colorPrimaryDark">#01579B</item>
         <item name="colorAccent">#000000</item>
     </style>
-
+    <!-- Style of name input field. -->
+    <style name="NameField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_top_margin</item>
+        <item name="android:hint">@string/name</item>
+        <item name="android:inputType">textCapWords|text</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+    <!-- Style of header. -->
+    <style name="Header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/activity_bottom_margin</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <!-- Style of questions. -->
+    <style name="Question">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/activity_bottom_margin</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <!-- Style of radio buttons. -->
+    <style name="RadioButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">@dimen/activity_left_margin</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <!-- Style of submit/reset buttons. -->
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/activity_bottom_margin</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <!-- Style of checkbox. -->
+    <style name="Checkbox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/activity_bottom_margin</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <!-- Style of text field of question 5 . -->
+    <style name="AnswerField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">@string/answer</item>
+        <item name="android:inputType">textCapWords|text</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
 </resources>

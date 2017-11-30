@@ -6,203 +6,133 @@
     tools:context="com.example.android.biologyquizapp.MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/activity_left_margin"
         android:layout_marginRight="@dimen/activity_right_margin"
         android:orientation="vertical">
 
         <EditText
-            android:id="@id/name_field"
+            android:id="@+id/edit_name"
+            style="@style/NameField" />
+
+        <TextView
+            style="@style/Header"
+            android:text="@string/header" />
+
+        <TextView
+            android:id="@+id/text_question1"
+            style="@style/Question"
+            android:text="@string/quizOne" />
+
+        <RadioGroup
+            android:id="@+id/radio_group1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/activity_top_margin"
-            android:hint="@string/Name"
-            android:inputType="textCapWords" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_bottom_margin"
-            android:layout_marginTop="@dimen/activity_top_margin"
-            android:text="@string/header"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textAllCaps="true" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_bottom_margin"
-            android:layout_marginTop="@dimen/activity_top_margin"
-            android:text="@string/quizOne"
-            android:textAppearance="?android:textAppearanceMedium"/>
-
-        <RadioGroup
-            android:id="@id/radioGroup1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <RadioButton
-                android:id="@id/trueRadioButtonOne"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/True"
-                android:textAllCaps="true"
-                android:layout_marginLeft="@dimen/activity_left_margin"
-                android:layout_marginRight="@dimen/activity_right_margin"
-                android:onClick="onRadioButtonClicked"/>
+                android:id="@+id/trueRadioButtonOne"
+                style="@style/RadioButton"
+                android:text="@string/radioButtonTrue" />
+
             <RadioButton
-                android:id="@id/falseRadioButtonOne"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/False"
-                android:textAllCaps="true"
-                android:onClick="onRadioButtonClicked"/>
+                android:id="@+id/falseRadioButtonOne"
+                style="@style/RadioButton"
+                android:text="@string/radioButtonFalse" />
+
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_bottom_margin"
-            android:layout_marginTop="@dimen/activity_top_margin"
-            android:text="@string/quizTwo"
-            android:textAppearance="?android:textAppearanceMedium"/>
+            android:id="@+id/text_question2"
+            style="@style/Question"
+            android:text="@string/quizTwo" />
 
         <RadioGroup
-            android:id="@id/radioGroup2"
-            android:layout_width="wrap_content"
+            android:id="@+id/radio_group2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <RadioButton
-                android:id="@id/trueRadioButtonTwo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/True"
-                android:textAllCaps="true"
-                android:layout_marginLeft="@dimen/activity_left_margin"
-                android:layout_marginRight="@dimen/activity_right_margin"
-                android:onClick="onRadioButtonClicked"/>
+                android:id="@+id/trueRadioButtonTwo"
+                style="@style/RadioButton"
+                android:text="@string/radioButtonTrue" />
+
             <RadioButton
-                android:id="@id/falseRadioButtonTwo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/False"
-                android:textAllCaps="true"
-                android:onClick="onRadioButtonClicked"/>
+                android:id="@+id/falseRadioButtonTwo"
+                style="@style/RadioButton"
+                android:text="@string/radioButtonFalse" />
+
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_bottom_margin"
-            android:layout_marginTop="@dimen/activity_top_margin"
-            android:text="@string/quizThree"
-            android:textAppearance="?android:textAppearanceMedium"/>
+            android:id="@+id/text_question3"
+            style="@style/Question"
+            android:text="@string/quizThree" />
 
         <RadioGroup
-            android:id="@id/radioGroup3"
-            android:layout_width="wrap_content"
+            android:id="@+id/radio_group3"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <RadioButton
-                android:id="@id/trueRadioButtonThree"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/True"
-                android:textAllCaps="true"
-                android:layout_marginLeft="@dimen/activity_left_margin"
-                android:layout_marginRight="@dimen/activity_right_margin"
-                android:onClick="onRadioButtonClicked"/>
+                android:id="@+id/trueRadioButtonThree"
+                style="@style/RadioButton"
+                android:text="@string/radioButtonTrue" />
+
             <RadioButton
-                android:id="@id/falseRadioButtonThree"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/False"
-                android:textAllCaps="true"
-                android:onClick="onRadioButtonClicked"/>
+                android:id="@+id/falseRadioButtonThree"
+                style="@style/RadioButton"
+                android:text="@string/radioButtonFalse" />
+
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_bottom_margin"
-            android:layout_marginTop="@dimen/activity_top_margin"
-            android:text="@string/quizFour"
-            android:textAppearance="?android:textAppearanceMedium"/>
+            android:id="@+id/text_question4"
+            style="@style/Question"
+            android:text="@string/quizFour" />
 
-        <RadioGroup
-            android:id="@id/radioGroup4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <RadioButton
-                android:id="@id/trueRadioButtonFour"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/True"
-                android:textAllCaps="true"
-                android:layout_marginLeft="@dimen/activity_left_margin"
-                android:layout_marginRight="@dimen/activity_right_margin"
-                android:onClick="onRadioButtonClicked"/>
-            <RadioButton
-                android:id="@id/falseRadioButtonFour"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/False"
-                android:textAllCaps="true"
-                android:onClick="onRadioButtonClicked"/>
-        </RadioGroup>
+        <CheckBox
+            android:id="@+id/checkbox_quiz_four_A"
+            style="@style/Checkbox"
+            android:text="@string/quiz_four_A" />
+
+        <CheckBox
+            android:id="@+id/checkbox_quiz_four_B"
+            style="@style/Checkbox"
+            android:text="@string/quiz_four_B" />
+
+
+        <CheckBox
+            android:id="@+id/checkbox_quiz_four_C"
+            style="@style/Checkbox"
+            android:text="@string/quiz_four_C" />
+
+        <CheckBox
+            android:id="@+id/checkbox_quiz_four_D"
+            style="@style/Checkbox"
+            android:text="@string/quiz_four_D" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_bottom_margin"
-            android:layout_marginTop="@dimen/activity_top_margin"
-            android:text="@string/quizFive"
-            android:textAppearance="?android:textAppearanceMedium"/>
+            android:id="@+id/text_question5"
+            style="@style/Question"
+            android:text="@string/quizFive" />
 
-        <RadioGroup
-            android:id="@id/radioGroup5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <RadioButton
-                android:id="@id/trueRadioButtonFive"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/True"
-                android:textAllCaps="true"
-                android:layout_marginLeft="@dimen/activity_left_margin"
-                android:layout_marginRight="@dimen/activity_right_margin"
-                android:onClick="onRadioButtonClicked"/>
-            <RadioButton
-                android:id="@id/falseRadioButtonFive"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/False"
-                android:textAllCaps="true"
-                android:onClick="onRadioButtonClicked"/>
-        </RadioGroup>
-
+        <EditText
+            android:id="@+id/edit_answer"
+            style="@style/AnswerField" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_bottom_margin"
-            android:layout_marginTop="@dimen/activity_top_margin"
-            android:text="@string/Submit"
-            android:textAllCaps="true"
-            android:layout_gravity="center"
-            android:onClick="submit"/>
+            android:id="@+id/button_submit"
+            style="@style/Button"
+            android:text="@string/submit" />
+
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_bottom_margin"
-            android:layout_marginTop="@dimen/activity_top_margin"
-            android:text="reset"
-            android:textAllCaps="true"
-            android:layout_gravity="center"
-            android:onClick="reset"/>
+            android:id="@+id/button_reset"
+            style="@style/Button"
+            android:text="@string/reset" />
 
     </LinearLayout>
 
